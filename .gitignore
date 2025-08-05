@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitten Shield Security</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center text-center md:text-left">
+                <!-- SVG Logo for Mitten Shield Security - Updated to show an outline with an internal shape -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-600 mr-4" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+                    <path d="M12 2L3 6v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"/>
+                    <path fill="currentColor" stroke="none" d="M11.66 12.87L9.5 15.11a.75.75 0 01-1.06-1.06l2.16-2.16c.38-.38 1.01-.38 1.39 0l2.16 2.16a.75.75 0 01-1.06 1.06l-2.16-2.16z"/>
+                </svg>
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-900">Mitten Shield Security</h1>
+                    <p class="text-xl text-indigo-600 mt-1">Your local security provider</p>
+                </div>
+            </div>
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg font-medium">
+                    <li><a href="#about" class="hover:text-indigo-600 transition duration-300">About Us</a></li>
+                    <li><a href="#services" class="hover:text-indigo-600 transition duration-300">Services</a></li>
+                    <li><a href="#custom-package-generator" class="hover:text-indigo-600 transition duration-300">Package Generator</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-600 transition duration-300">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-indigo-600 text-white py-24 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">Your Trusted Local Security Partner</h2>
+            <p class="mt-4 text-xl md:text-2xl font-light max-w-4xl mx-auto">
+                At Mitten Shield Security, our mission is to protect what matters most—your family, your home, and your peace of mind. We are committed to providing reliable, affordable, and personalized security solutions tailored to the needs of our local community. With cutting-edge technology, responsive service, and deep roots in the community, we strive to create a safer tomorrow—one home at a time.
+            </p>
+            <a href="#contact" class="mt-8 inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:bg-gray-100 transition duration-300">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center text-gray-900">Our Services</h3>
+            <p class="mt-4 text-xl text-center text-gray-600 max-w-2xl mx-auto">Reliable, cutting-edge security solutions for your home or business.</p>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1: Wireless Camera Installation -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://storage.googleapis.com/g-c-a.appspot.com/uploaded%3Aimage_bca7c6.jpg-27180604-fc7d-40eb-b38a-f9915d922787" alt="Wireless Camera Installation" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">📷 Wireless Camera Installation</h4>
+                        <p class="mt-2 text-gray-600">Protect your home with crystal-clear video, day or night.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Indoor & outdoor HD cameras</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Night vision & motion detection</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Doorbell cameras with two-way audio</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Mobile app access from anywhere</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2: Alarm System Setup -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://storage.googleapis.com/g-c-a.appspot.com/uploaded%3Aimage_bcaaac.png-e402d967-76fa-4063-9327-375ec2735c1e" alt="Alarm System Setup" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">🔐 Alarm System Setup</h4>
+                        <p class="mt-2 text-gray-600">Your first line of defense against intruders.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Wireless door/window sensors</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Motion detectors & panic buttons</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Loud internal sirens</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Customizable alerts via app</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3: Smart Home Integration -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://placehold.co/600x400/9e9e9e/ffffff?text=Smart+Home+Integration" alt="Smart Home Integration" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">📲 Smart Home Integration</h4>
+                        <p class="mt-2 text-gray-600">Modern protection, smarter living.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Smart locks with remote control</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Motion-activated lighting</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Alexa/Google Assistant integration</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Automated routines for safety & convenience</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4: 24/7 Monitoring (Optional) -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://placehold.co/600x400/9e9e9e/ffffff?text=24/7+Monitoring" alt="24/7 Monitoring" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">🚨 24/7 Monitoring (Optional)</h4>
+                        <p class="mt-2 text-gray-600">Professional eyes on your home, even when you’re away.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Emergency response dispatch</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Real-time alerts to your phone</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Add to any package—no long-term contract</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 5: System Maintenance & Support -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://placehold.co/600x400/9e9e9e/ffffff?text=Maintenance+%26+Support" alt="System Maintenance & Support" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">🛠️ System Maintenance & Support</h4>
+                        <p class="mt-2 text-gray-600">We’re here when you need us.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Battery replacement & equipment checks</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Software/app updates</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Fast, local customer support</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 6: Custom Packages -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transition-shadow duration-300">
+                    <img src="https://placehold.co/600x400/9e9e9e/ffffff?text=Custom+Packages" alt="Custom Packages" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-gray-900">🏡 Custom Packages</h4>
+                        <p class="mt-2 text-gray-600">Every home is different—we tailor your security to match.</p>
+                        <ul class="mt-4 space-y-2 text-gray-500">
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Free on-site evaluation</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Packages for homes, rentals, vacation properties</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <span>Affordable monthly plans</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gemini API Powered Feature Section -->
+    <section id="custom-package-generator" class="bg-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <h3 class="text-4xl font-bold text-gray-900">Find Your Perfect Package ✨</h3>
+            <p class="mt-4 text-xl text-gray-600">Tell us a bit about your home and your security concerns, and our AI will recommend a customized security package for you.</p>
+
+            <div class="mt-8">
+                <textarea id="security-needs" rows="12" class="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-4 placeholder-gray-400" placeholder="Sure! To give you a personalized security recommendation, I need a little more detail about your situation. Please answer a few of the following questions (as many as you can):
+
+🏠 Property Type & Layout
+What type of property is it? (House, apartment, business, warehouse, etc.)
+How many entrances (doors) and windows are there?
+Any detached structures? (Garage, shed, guest house)
+
+👨‍👩‍👧‍👦 Who Lives or Works There?
+Do you live alone, with family, or have employees?
+Any kids, elderly people, or pets?
+
+🎯 Goals and Concerns
+What are your biggest security concerns? (Break-ins, package theft, fire, remote access, etc.)
+Are there any incidents that already happened or you're trying to prevent?
+
+📡 Technology Preference
+Do you want wireless systems or are you okay with wired setups?
+Would you prefer professional monitoring, self-monitoring, or both?
+Do you want mobile app control, voice assistant integration (Alexa, Google), or automation?
+
+💰 Budget Range
+Are you looking for a budget-friendly, mid-range, or premium system?"></textarea>
+                <button id="generate-package-btn" class="mt-4 inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300">
+                    Generate My Plan ✨
+                </button>
+            </div>
+
+            <div id="loading-indicator" class="mt-8 hidden">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600 mx-auto"></div>
+                <p class="mt-2 text-indigo-600">Generating your custom security plan...</p>
+            </div>
+
+            <div id="package-output" class="mt-8 p-6 bg-gray-100 rounded-xl shadow-inner text-left hidden">
+                <h4 class="text-2xl font-semibold text-gray-900 mb-4">Your Custom Security Recommendation:</h4>
+                <div id="package-content" class="text-gray-700 leading-relaxed"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-4xl font-bold text-gray-900">Ready to Protect What Matters?</h3>
+            <p class="mt-4 text-xl text-gray-600">Contact us today to schedule a free consultation.</p>
+
+            <div class="mt-8 flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-8 justify-center">
+                <a href="tel:616-502-7341" class="inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.5l1 4a1 1 0 01-1 1h-2a1 1 0 00-1 1v4a1 1 0 001 1h2a1 1 0 011 1l-1 4H5a2 2 0 01-2-2v-4zM16 5a2 2 0 012-2h3.5l1 4a1 1 0 01-1 1h-2a1 1 0 00-1 1v4a1 1 0 001 1h2a1 1 0 011 1l-1 4H18a2 2 0 01-2-2v-4z" />
+                    </svg>
+                    Call Now
+                </a>
+                <span class="text-lg font-semibold text-gray-600">(616) 502-7341 or (231) 531-6684</span>
+            </div>
+
+            <p class="mt-4 text-lg font-semibold text-gray-600">Email: <a href="mailto:mitten.s.s.1732@gmail.com" class="text-indigo-600 hover:underline">mitten.s.s.1732@gmail.com</a></p>
+
+            <p class="mt-8 text-lg text-gray-600">Or fill out the form below:</p>
+
+            <!-- Contact Form -->
+            <form action="#" method="POST" class="mt-8 max-w-xl mx-auto space-y-6">
+                <div>
+                    <label for="name" class="block text-left text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" name="name" id="name" autocomplete="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="email" class="block text-left text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" name="email" id="email" autocomplete="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="phone" class="block text-left text-sm font-medium text-gray-700">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="tel" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="message" class="block text-left text-sm font-medium text-gray-700">Tell us about your security needs</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Mitten Shield Security. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const generateBtn = document.getElementById('generate-package-btn');
+            const securityNeedsTextarea = document.getElementById('security-needs');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const packageOutputDiv = document.getElementById('package-output');
+            const packageContentDiv = document.getElementById('package-content');
+
+            // List of services provided by the company
+            const services = {
+                'Wireless Camera Installation': ['Indoor & outdoor HD cameras', 'Night vision & motion detection', 'Doorbell cameras with two-way audio', 'Mobile app access from anywhere'],
+                'Alarm System Setup': ['Wireless door/window sensors', 'Motion detectors & panic buttons', 'Loud internal sirens', 'Customizable alerts via app'],
+                'Smart Home Integration': ['Smart locks with remote control', 'Motion-activated lighting', 'Alexa/Google Assistant integration', 'Automated routines for safety & convenience'],
+                '24/7 Monitoring (Optional)': ['Emergency response dispatch', 'Real-time alerts to your phone', 'Add to any package—no long-term contract'],
+                'System Maintenance & Support': ['Battery replacement & equipment checks', 'Software/app updates', 'Fast, local customer support'],
+                'Custom Packages': ['Free on-site evaluation', 'Packages for homes, rentals, vacation properties', 'Affordable monthly plans']
+            };
+
+            const generatePackage = async () => {
+                const userDescription = securityNeedsTextarea.value.trim();
+
+                if (userDescription === '') {
+                    packageContentDiv.innerHTML = '<p class="text-red-500">Please describe your security needs to get a recommendation.</p>';
+                    packageOutputDiv.classList.remove('hidden');
+                    return;
+                }
+
+                // Show loading state
+                generateBtn.disabled = true;
+                loadingIndicator.classList.remove('hidden');
+                packageOutputDiv.classList.add('hidden');
+
+                const prompt = `You are an expert security consultant for "Mitten Shield Security". Based on the following customer description, recommend a personalized security package. Be friendly, professional, and use the services we provide. Do not mention that you are an AI or language model. Use the information provided by the customer to tailor a detailed recommendation.
+
+Customer's Description: "${userDescription}"
+
+Services offered by Mitten Shield Security:
+${JSON.stringify(services, null, 2)}
+
+Provide a recommendation that includes specific services from our list and explains why they are a good fit for the customer's needs. Format the response as a friendly, professional message.`;
+
+                let chatHistory = [];
+                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                const payload = { contents: chatHistory };
+                const apiKey = "";
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`API error: ${response.statusText}`);
+                    }
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        
+                        const text = result.candidates[0].content.parts[0].text;
+                        // Replace newlines with <br> for HTML display
+                        packageContentDiv.innerHTML = text.replace(/\n/g, '<br>');
+                        packageOutputDiv.classList.remove('hidden');
+                    } else {
+                        packageContentDiv.innerHTML = '<p class="text-red-500">Sorry, something went wrong. Please try again later.</p>';
+                        packageOutputDiv.classList.remove('hidden');
+                    }
+                } catch (error) {
+                    console.error('Error calling Gemini API:', error);
+                    packageContentDiv.innerHTML = `<p class="text-red-500">An error occurred: ${error.message}. Please try again.</p>`;
+                    packageOutputDiv.classList.remove('hidden');
+                } finally {
+                    loadingIndicator.classList.add('hidden');
+                    generateBtn.disabled = false;
+                }
+            };
+
+            generateBtn.addEventListener('click', generatePackage);
+        });
+    </script>
+
+</body>
+</html>
